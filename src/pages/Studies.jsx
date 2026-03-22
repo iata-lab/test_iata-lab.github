@@ -3,8 +3,9 @@ import { FaGraduationCap } from "react-icons/fa";
 import "./Studies.css";
 
 // Import university images
-import shahidBeheshtiImg from "../assets/img/shahid-beheshti.jpg";
-import isfahanTechImg from "../assets/img/isfahan-tech.jpg";
+import basqueTradeLogoImg from "../assets/img/basque-trade-logo.png";
+import logoUpvEhuImg from "../assets/img/logo-upv-ehu.gif";
+import dsbPanoramicImg from "../assets/img/DSB-panoramic.jpg";
 
 const Studies = () => {
   const education = [
@@ -13,19 +14,19 @@ const Studies = () => {
       year: "2021",
       university:
         "Universidad del País Vasco (UPV-EHU), Universidad de Deusto, Universidad Mondragon",
-      image: shahidBeheshtiImg,
+      image: basqueTradeLogoImg,
     },
     {
       degree: "Licenciatura en Administración y Dirección de Empresas",
       year: "2009 - 2015",
       university: "Universidad del País Vasco (UPV-EHU)",
-      image: shahidBeheshtiImg,
+      image: logoUpvEhuImg,
     },
     {
       degree: " Bachiller y selectividad alemana (Abitur)",
       year: "1994 - 2009",
       university: "Colegio Alemán San Bonifacio Bilbao",
-      image: shahidBeheshtiImg,
+      image: dsbPanoramicImg,
     },
   ];
 

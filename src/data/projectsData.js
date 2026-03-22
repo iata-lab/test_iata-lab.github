@@ -28,6 +28,13 @@ import universityImg from "../assets/img/university.png";
 import airImg from "../assets/img/air.png";
 import desertImg from "../assets/img/desert.png";
 import countryImg from "../assets/img/country.png";
+// Experience / Work images
+import dicoexLogoImg from "../assets/img/dicoex-logo.jpg";
+import bbvaLogoImg from "../assets/img/bbva-logo.png";
+import mercedesBenzMadridImg from "../assets/img/Mercedes-Benz-Madrid.png";
+import pnudLogoImg from "../assets/img/pnud-logo.png";
+import seatCupraImg from "../assets/img/seat-cupra.png";
+import logoIneImg from "../assets/img/logo-INE.jpg";
 
 // ============================================
 // 📦 TODOS LOS PROYECTOS (allProjects)
@@ -59,7 +66,7 @@ export const allProjects = {
     year: "2024",
     description:
       "Realicé gestiones diarias en empresa unipersonal de distribución de productos químicos y de laboratorio para empresas industriales (emisión y envío de facturas, trato directo con clientes y proveedores, fiscalidad). Ayuda en la búsqueda de subvenciones para el traspaso del negocio.",
-    images: [countryImg],
+    images: [dicoexLogoImg],
     details: {
       responsibilities: [
         "Emisión y envío de facturas a clientes",
@@ -81,7 +88,7 @@ export const allProjects = {
     year: "2022 - 2024",
     description:
       "Opositor a tiempo completo a Diplomado Estadístico del Estado (Grupo A2) del INE. Superación del proceso selectivo en dos convocatorias consecutivas. Demostrada capacidad de superación y aprendizaje intensivo en materias de estadística, economía, demografía y análisis de datos.",
-    images: [weatherMapImg, weatherMapImg, weatherMapImg, weatherMapImg],
+    images: [logoIneImg],
     details: {
       technologies: [
         "Estadística Descriptiva e Inferencial",
@@ -127,7 +134,7 @@ export const allProjects = {
     year: "2020",
     description:
       "Estrategia y desarrollo de la start-up de movilidad urbana de SEAT en Barcelona. Actué como catalizador para la integración de soluciones disruptivas dentro de la estructura corporativa y coordinando la comunicación estratégica entre los departamentos del Grupo.",
-    images: [weatherMapImg, weatherMapImg, weatherMapImg, weatherMapImg],
+    images: [seatCupraImg],
     details: {
       technologies: [
         "Trainee Grupo Volkswagen - SEAT",
@@ -153,7 +160,7 @@ export const allProjects = {
     year: "2018 - 2019",
     description:
       "Asistencia comercial en la oficina de Banca de Inversión de BBVA en Düsseldorf, Alemania. Colaboración directa con el equipo de ventas institucional para la gestión de productos complejos de Renta Fija y Variable.",
-    images: [],
+    images: [bbvaLogoImg],
     details: {
       technologies: [
         "Derivados de Renta Variable",
@@ -175,7 +182,7 @@ export const allProjects = {
     year: "2017",
     description:
       "Prácticas en el Programa de las Naciones Unidas para el Desarrollo en Santiago de Chile. Mi labor se centró en la supervisión técnica de proyectos de desarrollo agrario y la coordinación con contrapartes locales para el fortalecimiento de comunidades rurales en terreno.",
-    images: [],
+    images: [pnudLogoImg],
     details: {
       technologies: [
         "Sistemas de Monitoreo y Evaluación (M&E)",
@@ -199,7 +206,7 @@ export const allProjects = {
     year: "2016",
     description:
       "Análisis y control financiero en el Grupo de Concesionarios oficiales de Mercedes-Benz en Madrid. Enfoque directo en la optimización de procesos internos y el control de riesgos para maximizar la rentabilidad de las unidades de negocio.",
-    images: [],
+    images: [mercedesBenzMadridImg],
     details: {
       technologies: [
         "Análisis Avanzado en Excel",
