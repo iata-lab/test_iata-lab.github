@@ -27,7 +27,6 @@ import hundirImg from "../assets/img/hundir.png";
 import universityImg from "../assets/img/university.png";
 import airImg from "../assets/img/air.png";
 import desertImg from "../assets/img/desert.png";
-import ekhilurImg from "../assets/img/ekhilur.svg";
 import countryImg from "../assets/img/country.png";
 
 // ============================================
@@ -35,10 +34,29 @@ import countryImg from "../assets/img/country.png";
 // ============================================
 
 export const allProjects = {
+  "holmoy-maritime": {
+    id: "holmoy-maritime",
+    title: "Operario - Holmøy Maritime AS",
+    year: "2024 - 2025",
+    description:
+      "Operario producción en la industria pesquera de Noruega (Bergen e Islas Lofoten). Esta etapa fue un recurso personal para conseguir dinero para la adquisición de una empresariales así como el perfeccionamiento del inglés.",
+    images: [weatherMapImg, weatherMapImg, weatherMapImg, weatherMapImg],
+    details: {
+      technologies: [
+        "Inglés Profesional (Full Immersion)",
+        "Gestión de Procesos Industriales",
+      ],
+      features: [
+        "Desempeño en entornos de alta presión y condiciones climáticas extremas",
+        "Mejora fluida de la competencia lingüística en inglés en contexto laboral",
+        "Adaptabilidad cultural y trabajo en equipos internacionales",
+      ],
+    },
+  },
   "asistente-director": {
     id: "asistente-director",
     title: "Asistente Dirección - DICOEX",
-    year: "2025",
+    year: "2024",
     description:
       "Realicé gestiones diarias en empresa unipersonal de distribución de productos químicos y de laboratorio para empresas industriales (emisión y envío de facturas, trato directo con clientes y proveedores, fiscalidad). Ayuda en la búsqueda de subvenciones para el traspaso del negocio.",
     images: [countryImg],
@@ -57,29 +75,10 @@ export const allProjects = {
       ],
     },
   },
-  "holmoy-maritime": {
-    id: "holmoy-maritime",
-    title: "Operario - Holmøy Maritime AS",
-    year: "2025",
-    description:
-      "Operario producción en la industria pesquera de Noruega (Bergen e Islas Lofoten). Esta etapa fue un recurso personal para conseguir dinero para la adquisición de una empresariales así como el perfeccionamiento del inglés.",
-    images: [weatherMapImg, weatherMapImg, weatherMapImg, weatherMapImg],
-    details: {
-      technologies: [
-        "Inglés Profesional (Full Immersion)",
-        "Gestión de Procesos Industriales",
-      ],
-      features: [
-        "Desempeño en entornos de alta presión y condiciones climáticas extremas",
-        "Mejora fluida de la competencia lingüística en inglés en contexto laboral",
-        "Adaptabilidad cultural y trabajo en equipos internacionales",
-      ],
-    },
-  },
   "oposicion-ine": {
     id: "oposicion-ine",
     title: "Opositor a Diplomado Estadístico del Estado - INE",
-    year: "2010 - 2011",
+    year: "2022 - 2024",
     description:
       "Opositor a tiempo completo a Diplomado Estadístico del Estado (Grupo A2) del INE. Superación del proceso selectivo en dos convocatorias consecutivas. Demostrada capacidad de superación y aprendizaje intensivo en materias de estadística, economía, demografía y análisis de datos.",
     images: [weatherMapImg, weatherMapImg, weatherMapImg, weatherMapImg],
@@ -102,7 +101,7 @@ export const allProjects = {
   "master-beint-munich": {
     id: "master-beint-munich",
     title: "Beca de Internacionalización BEINT - SPRI Múnich",
-    year: "2012 - 2013",
+    year: "2021",
     description:
       "Programa de especialización en comercio internacional que incluyó una fase de formación técnica y una estancia profesional en la oficina de la SPRI en Múnich. Durante este periodo, actué como enlace estratégico para la expansión de empresas vascas en el mercado Alemán.",
     images: [weatherMapImg, weatherMapImg, weatherMapImg, weatherMapImg],
@@ -125,7 +124,7 @@ export const allProjects = {
   "seat-desarrollo-negocio": {
     id: "seat-desarrollo-negocio",
     title: "Desarrollo de Negocio - SEAT",
-    year: "2011 - 2012",
+    year: "2020",
     description:
       "Estrategia y desarrollo de la start-up de movilidad urbana de SEAT en Barcelona. Actué como catalizador para la integración de soluciones disruptivas dentro de la estructura corporativa y coordinando la comunicación estratégica entre los departamentos del Grupo.",
     images: [weatherMapImg, weatherMapImg, weatherMapImg, weatherMapImg],
@@ -241,42 +240,6 @@ export const allProjects = {
       ],
     },
   },
-  ekhilur: {
-    id: "ekhilur",
-    title: "Ekhilur Custom Statistics Platform (Web Scraping Challenge)",
-    description:
-      "Un desafío de bootcamp que implica el desarrollo de un sitio web con una implementación de web scraping para proporcionar a los usuarios de Ekhilur estadísticas de transacciones personalizadas extraídas directamente de sus cuentas.",
-    images: [ekhilurImg],
-    details: {
-      technologies: ["Web Scraping", "Python", "JavaScript"],
-      features: [
-        "Web scraping automatizado",
-        "Estadísticas personalizadas",
-        "Extracción de datos",
-      ],
-    },
-  },
-  "weather-map": {
-    id: "weather-map",
-    title: "Weather Map of Bizkaia (OpenWeatherMap & Leaflet.js)",
-    description:
-      "Una aplicación web que visualiza datos meteorológicos en tiempo real para Bizkaia, combinando la API de OpenWeatherMap con mapas interactivos de Leaflet.js. Este proyecto demuestra la integración de múltiples tecnologías para crear una experiencia visual enriquecida, permitiendo a los usuarios explorar patrones climáticos sobre un mapa interactivo de la región.",
-    images: [weatherMapImg, weatherMapImg, weatherMapImg, weatherMapImg],
-    details: {
-      technologies: [
-        "JavaScript (Vanilla)",
-        "OpenWeatherMap API",
-        "Leaflet.js",
-        "HTML & CSS",
-      ],
-      features: [
-        "Visualización de datos meteorológicos en tiempo real",
-        "Mapa interactivo de Bizkaia",
-        "Información detallada por ubicación",
-        "Interfaz responsiva",
-      ],
-    },
-  },
 };
 
 // ============================================
@@ -300,29 +263,27 @@ export const allProjects = {
 // ============================================
 
 // ============================================
-// 🎯 PROYECTOS FRONTEND (Frontend Projects)
+// 🎯 EXPERIENCIA RECIENTE (Frontend Projects)
 // ============================================
-// Aquí van los proyectos web interactivos por orden
+// Aquí van los proyectos/experiencias recientes por orden
 export const frontendProjects = [
-  allProjects["asistente-director"],
   allProjects["holmoy-maritime"],
+  allProjects["asistente-director"],
   allProjects["oposicion-ine"],
   allProjects["master-beint-munich"],
   allProjects["seat-desarrollo-negocio"],
-  allProjects["weather-map"],
   // ← AGREGAR NUEVOS PROYECTOS FRONTEND AQUÍ
 ];
 
 // ============================================
-// 📊 PROYECTOS DATA SCIENCE (Data Science Projects)
+// 📊 ANTERIOR (Data Science Projects)
 // ============================================
-// Aquí van proyectos de análisis, ML, Python
+// Aquí van proyectos/experiencias anteriores
 export const dataScienceProjects = [
   allProjects["bbva-investment-banking"],
   allProjects["pnud-naciones-unidas"],
   allProjects["mercedes-benz-finance"],
   allProjects["africa-directo-pm"],
-  allProjects["ekhilur"],
   // ← AGREGAR NUEVOS PROYECTOS DATA SCIENCE AQUÍ
 ];
 
@@ -371,7 +332,7 @@ export const studies = [
     image: universityImg,
   },
   {
-    degree: "Bachelor in Business Administration (BA) (2013 - 2015)",
+    degree: "Bachelor in Business Administration (2013 - 2015)",
     university:
       "Hochschule für Wirtschaft und Recht (HWR Berlin) – Titulación Alemana (Erasmus)",
     image: "",
@@ -384,12 +345,12 @@ export const studies = [
 // ============================================
 export const honors = [
   {
-    honor: "Acceso al Máster Beint y rendimiento académico durante el Máster",
-    details: "Clasificado en el puesto 21 de entre 600 aspirantes.",
-  },
-  {
-    honor: "Aprobar el proceso de concurso-oposición en dos ocasiones",
+    honor: "Aprobar el proceso de Concurso-Oposición en dos ocasiones",
     details:
       "Calificaciones de 7.13 y 5.35 en dos exámenes finales de dos convocatorias para Diplomado Estadístico del Estado, pero sin obtener plaza.",
+  },
+  {
+    honor: "Acceso al Máster Beint y rendimiento académico durante el Máster",
+    details: "Clasificado en el puesto 21 de entre 600 aspirantes.",
   },
 ];
