@@ -14,15 +14,15 @@ const Navbar = () => {
 
   const navItems = [
     { path: '/', label: 'Home' },
-    { path: '/studies', label: 'Studies' },
-    { path: '/projects', label: 'Projects' },
-    { path: '/contact', label: 'Contact' }
+    { path: '/studies', label: 'Estudios' },
+    { path: '/projects', label: 'Proyectos' },
+    { path: '/contact', label: 'Contacto' }
   ];
 
   return (
     <nav className="nav">
       <div className="nav-container">
-        <Link to="/" className="logo">Arman Ghaziaskari Naeini</Link>
+        <Link to="/" className="logo">Iñigo Mata Garcia del Valle</Link>
         <button className="menu-button" onClick={toggleMenu}>
           <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />
         </button>

@@ -1,0 +1,130 @@
+/* ProjectDetailExample.css - Estilos para la página de detalle del proyecto */
+
+.project-detail-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+/* Botón de retorno */
+.back-button-container {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.back-button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Sección de detalles adicionales */
+.project-details {
+  max-width: 900px;
+  margin: 60px auto 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  padding: 40px 20px;
+  border-top: 1px solid #eee;
+}
+
+.detail-item {
+  padding: 20px 0;
+}
+
+.detail-item h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.detail-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detail-item li {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.8;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+}
+
+.detail-item li:before {
+  content: "◆";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+  font-size: 10px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .project-detail-page {
+    padding: 30px 15px;
+  }
+
+  .back-button-container {
+    margin-bottom: 30px;
+  }
+
+  .project-details {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 40px;
+    padding: 30px 15px;
+  }
+
+  .detail-item h3 {
+    font-size: 16px;
+  }
+
+  .detail-item li {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-detail-page {
+    padding: 20px 10px;
+  }
+
+  .back-button {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  .project-details {
+    margin-top: 30px;
+    padding: 20px 10px;
+  }
+
+  .detail-item h3 {
+    font-size: 14px;
+  }
+
+  .detail-item li {
+    font-size: 12px;
+  }
+}

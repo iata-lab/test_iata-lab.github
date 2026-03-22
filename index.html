@@ -2,182 +2,98 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/public/img-1/foto-perfil-1.png" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/public/img-1/idea-light-bulb.svg"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Inigo Mata - Portfolio showcasing expertise in International Business and Data Science." />
-    <meta name="keywords" content="Inigo Mata, GIS, Data Science, Web Development, Portfolio, Remote Sensing" />
+    <meta
+      name="description"
+      content="Inigo Mata - Portfolio showcasing expertise in International Business and Data Science."
+    />
+    <meta name="keywords" content="Inigo Mata, International, Data Science" />
     <meta name="author" content="Inigo Mata" />
     <meta name="robots" content="index, follow" />
     <meta property="og:title" content="Inigo Mata - Portfolio" />
-    <meta property="og:description" content="Portfolio showcasing expertise in GIS, Data Science, Machine Learning, and Web Development." />
+    <meta
+      property="og:description"
+      content="Portfolio showcasing expertise in GIS, Data Science, Machine Learning, and Web Development."
+    />
     <meta property="og:url" content="https://armanghazi.github.io/portfolio/" />
     <meta property="og:type" content="website" />
     <link rel="canonical" href="https://armanghazi.github.io/portfolio/" />
     <title>Inigo Mata - Portfolio</title>
     <script type="text/javascript">
       function googleTranslateElementInit() {
-        new google.translate.TranslateElement({
-          pageLanguage: 'en',
-          includedLanguages: 'es,eu,fa',
-          layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-          autoDisplay: true
-        }, 'google_translate_element');
-
-        // Handle RTL for Persian and Arabic
-        const observer = new MutationObserver(function(mutations) {
-          mutations.forEach(function(mutation) {
-            if (mutation.target.tagName === 'HTML') {
-              const lang = mutation.target.getAttribute('lang');
-              if (lang === 'fa' || lang === 'ar') {
-                document.documentElement.dir = 'rtl';
-                document.body.dir = 'rtl';
-                document.body.style.textAlign = 'right';
-              } else {
-                document.documentElement.dir = 'ltr';
-                document.body.dir = 'ltr';
-                document.body.style.textAlign = 'left';
-              }
-            }
-          });
-        });
-
-        observer.observe(document.documentElement, {
-          attributes: true,
-          attributeFilter: ['lang']
-        });
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "es",
+            includedLanguages: "es,en,eu",
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisplay: false,
+          },
+          "google_translate_element"
+        );
       }
     </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
     <style>
       #google_translate_element {
-        position: fixed;
-        top: 10px;
-        left : 10px;
-        z-index: 9999;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        z-index: 1001;
       }
-      .goog-te-banner-frame.skiptranslate,
+
+      .goog-te-banner-frame.skiptranslate {
+        display: none !important;
+      }
+
       .goog-te-gadget-icon {
         display: none !important;
       }
+
       body {
         top: 0px !important;
+        margin-top: 0 !important;
       }
+
       .goog-tooltip {
         display: none !important;
       }
-      .goog-tooltip:hover {
-        display: none !important;
-      }
+
       .goog-text-highlight {
         background-color: transparent !important;
         border: none !important;
         box-shadow: none !important;
       }
+
       .VIpgJd-ZVi9od-l4eHX-hSRGPd {
         display: none !important;
       }
 
-      /* RTL Styles */
-      [dir="rtl"] {
-        direction: rtl !important;
-      }
-      
-      [dir="rtl"] * {
-        direction: inherit;
-      }
-      
-      [dir="rtl"] .navbar,
-      [dir="rtl"] .nav-links {
-        flex-direction: row-reverse !important;
-      }
-      
-      [dir="rtl"] .container,
-      [dir="rtl"] .section,
-      [dir="rtl"] .content {
-        direction: rtl !important;
-        text-align: right !important;
-      }
-      
-      [dir="rtl"] h1,
-      [dir="rtl"] h2,
-      [dir="rtl"] h3,
-      [dir="rtl"] h4,
-      [dir="rtl"] h5,
-      [dir="rtl"] h6,
-      [dir="rtl"] p,
-      [dir="rtl"] span,
-      [dir="rtl"] div {
-        text-align: right !important;
-      }
-      
-      [dir="rtl"] .form-group {
-        text-align: right !important;
-      }
-      
-      [dir="rtl"] input,
-      [dir="rtl"] textarea {
-        text-align: right !important;
-        direction: rtl !important;
-      }
-      
-      /* Fix margins and paddings for RTL */
-      [dir="rtl"] .ml-1, [dir="rtl"] .ml-2, [dir="rtl"] .ml-3, [dir="rtl"] .ml-4, [dir="rtl"] .ml-5 {
-        margin-left: 0 !important;
-        margin-right: inherit !important;
-      }
-      
-      [dir="rtl"] .mr-1, [dir="rtl"] .mr-2, [dir="rtl"] .mr-3, [dir="rtl"] .mr-4, [dir="rtl"] .mr-5 {
-        margin-right: 0 !important;
-        margin-left: inherit !important;
-      }
-      
-      [dir="rtl"] .pl-1, [dir="rtl"] .pl-2, [dir="rtl"] .pl-3, [dir="rtl"] .pl-4, [dir="rtl"] .pl-5 {
-        padding-left: 0 !important;
-        padding-right: inherit !important;
-      }
-      
-      [dir="rtl"] .pr-1, [dir="rtl"] .pr-2, [dir="rtl"] .pr-3, [dir="rtl"] .pr-4, [dir="rtl"] .pr-5 {
-        padding-right: 0 !important;
-        padding-left: inherit !important;
-      }
-
-      /* Additional RTL fixes for Google Translate */
-      .translated-rtl {
-        direction: rtl !important;
-        text-align: right !important;
-      }
-
-      .translated-rtl .navbar {
-        flex-direction: row-reverse !important;
-      }
-
-      .translated-rtl .nav-item {
-        margin-right: 0 !important;
-        margin-left: 1rem !important;
-      }
-
-      .translated-rtl .container {
-        direction: rtl !important;
-      }
-
-      /* Fix for RTL in Google Translate dropdown */
-      .goog-te-menu-value span:nth-child(3) {
-        display: none !important;
-      }
-      
-      .goog-te-menu-value span:nth-child(5) {
+      .skiptranslate {
         display: none !important;
       }
     </style>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YQ9PQKD1D8"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-YQ9PQKD1D8"
+    ></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'G-YQ9PQKD1D8');
-  </script>
+      gtag("config", "G-YQ9PQKD1D8");
+    </script>
   </head>
   <body>
     <div id="google_translate_element"></div>
