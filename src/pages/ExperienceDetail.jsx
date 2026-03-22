@@ -1,15 +1,13 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
-import { gisExperience, teachingExperience } from "../data/projectsData";
+import { teachingExperience } from "../data/projectsData";
 import "./ProjectDetailExample.css";
 
 const ExperienceDetail = () => {
-  const { type, experienceId } = useParams();
+  const { experienceId } = useParams();
 
-  // Determine which data source to use based on URL type
-  const dataSource = type === "teaching" ? teachingExperience : gisExperience;
-  const experience = dataSource.find((exp) => exp.id === experienceId);
+  const experience = teachingExperience.find((exp) => exp.id === experienceId);
 
   if (!experience) {
     return (
@@ -39,11 +37,9 @@ const ExperienceDetail = () => {
       {/* Contenido de la experiencia */}
       <div className="experience-detail-content">
         <div className="experience-header">
-          {/* For GIS experiences: show period, for Teaching: show institution */}
-          <h1>{experience.period || experience.institution}</h1>
+          <h1>{experience.institution}</h1>
         </div>
 
-        {/* For Teaching experiences: show description and courses */}
         {experience.institution && experience.courses && (
           <div className="teaching-details">
             <p className="description">{experience.description}</p>
@@ -55,18 +51,6 @@ const ExperienceDetail = () => {
                 ))}
               </ul>
             </div>
-          </div>
-        )}
-
-        {/* For GIS experiences: show description list */}
-        {experience.description && Array.isArray(experience.description) && (
-          <div className="experience-description">
-            <h2>Responsabilidades y Logros</h2>
-            <ul>
-              {experience.description.map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
           </div>
         )}
       </div>

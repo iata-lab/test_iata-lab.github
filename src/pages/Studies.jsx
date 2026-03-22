@@ -50,10 +50,17 @@ const Studies = () => {
       details: "18 horas",
     },
     {
-      title: "Técnicas de Machine Learning",
+      title: "Especialización en Deep Learning",
       period: "2019",
       provider: "Universidad de Mondragon - Carlos Cernuda",
-      details: "110 horas",
+      details: "50 horas",
+    },
+    {
+      title:
+        "Bloomberg Market Concepts (BMC) - Financial Markets Certification",
+      period: "2018",
+      provider: "Bloomberg for Education",
+      details: "12 horas",
     },
     {
       title: "Certificado de Formación Específica en Iniciación a la Empresa",
@@ -62,30 +69,23 @@ const Studies = () => {
       details: "110 horas",
     },
     {
-      title: "Excel Avanzado y Gestión Financiera",
-      period: "2015",
+      title: "Excel Avanzado y Gestión de la Empresa",
+      period: "2016",
       provider: "Colegio Vasco de Economistas - Ekonomistak",
       details: "40 horas",
     },
     {
-      title:
-        "Bloomberg Market Concepts (BMC) - Financial Markets Certification",
-      period: "2019",
-      provider: "Bloomberg for Education",
-      details: "12 horas",
+      title: "Psicología de Inversión Tortugas Hispánicas",
+      period: "2013",
+      provider: "José Antonio Madrigal",
+      details: "36 horas",
     },
     {
       title: "Formación Financiera y Mercados Bursátiles",
-      period: "2011 / 2012",
+      period: "2010 / 2011",
       provider:
         "Euskal Herriko Unibertsitatea (UPV/EHU) - Jose Antonio Marañon",
-      details: "30 horas",
-    },
-    {
-      title: "Intensivo de Inversión Tortugas Hispánicas",
-      period: "2011",
-      provider: "José Antonio Madrigal",
-      details: "36 horas",
+      details: "45 horas",
     },
   ];
 

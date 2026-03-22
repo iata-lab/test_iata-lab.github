@@ -20,15 +20,14 @@ const Home = () => {
             las Naciones Unidas en Chile, y también en la Banca de Inversión y
             la industria automovilística, donde desarolle una mentalidad
             analítica y una visión estratégica transversal que marcan mi forma
-            de entender las realidades humanas y empresariales.
+            de entender la realidad humana y empresarial.
           </p>
           <p>
             Mi impulso por viajar me llevo a recorrer distintas regiones del
-            mundo desde zonas rurales en Africa hasta más receintemente en
-            Alemania. En el camino, he aprendido que moverme entre países y
-            desempeñar trabajos diversos me ha enseñado a adaptarme rápido,
-            priorizar con claridad y conectar con la realidad de muchas
-            personas.
+            mundo desde zonas rurales en Africa y más receintemente Noruega. En
+            el camino, he aprendido que moverme entre países y desempeñar
+            trabajos diversos me ha enseñado a adaptarme rápido, priorizar con
+            claridad y conectar con la realidad de muchas personas.
           </p>
           <p>
             En mi día a día practico alpinismo y sigo aprendiendo sobre nuevas
