@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 // export default defineConfig({
@@ -8,16 +8,14 @@ import react from '@vitejs/plugin-react'
 // vite.config.js
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio/',
+  base: "/",
   build: {
-    assetsDir: 'assets',
-    outDir: 'dist',
+    assetsDir: "assets",
+    outDir: "dist",
     rollupOptions: {
       output: {
-        assetFileNames: 'assets/[name][extname]'
-      }
-    }
-  }
-})
-
-
+        assetFileNames: "assets/[name][extname]",
+      },
+    },
+  },
+});

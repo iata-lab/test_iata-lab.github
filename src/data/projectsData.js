@@ -16,25 +16,20 @@
 //
 // ============================================
 
-// Import images
-import portfolioImg from "../assets/img/portfolio.png";
-import weatherMapImg from "../assets/img/weather-map.png";
-import espaniolImg from "../assets/img/espaniol.png";
-import usaImg from "../assets/img/usa.png";
-import foodImg from "../assets/img/food.png";
-import forecastImg from "../assets/img/forecast.png";
-import hundirImg from "../assets/img/hundir.png";
-import universityImg from "../assets/img/university.png";
-import airImg from "../assets/img/air.png";
-import desertImg from "../assets/img/desert.png";
-import countryImg from "../assets/img/country.png";
 // Experience / Work images
+import holmoyLogoImg from "../assets/img/holmoy-logo.png";
 import dicoexLogoImg from "../assets/img/dicoex-logo.jpg";
-import bbvaLogoImg from "../assets/img/bbva-logo.png";
-import mercedesBenzMadridImg from "../assets/img/Mercedes-Benz-Madrid.png";
-import pnudLogoImg from "../assets/img/pnud-logo.png";
-import seatCupraImg from "../assets/img/seat-cupra.png";
 import logoIneImg from "../assets/img/logo-INE.jpg";
+import basqueTradeLogoImg from "../assets/img/basque-trade-logo.png";
+import seatCupraImg from "../assets/img/seat-cupra.png";
+import bbvaLogoImg from "../assets/img/bbva-logo.png";
+import pnudLogoImg from "../assets/img/pnud-logo.png";
+import mercedesBenzMadridImg from "../assets/img/Mercedes-Benz-Madrid-Exterior.jpg";
+import africaDirectoLogoImg from "../assets/img/africa-directo-logo.png";
+import africaDirecto4Img from "../assets/img/africa-directo-4-pipe-installation.jpg";
+import africaDirecto5Img from "../assets/img/africa-directo-5-ambulance-albino.jpg";
+import africaDirecto9Img from "../assets/img/africa-directo-9-children-malawi.jpg";
+import africaDirecto11Img from "../assets/img/africa-directo-11-class-orphan-malawi.jpg";
 
 // ============================================
 // 📦 TODOS LOS PROYECTOS (allProjects)
@@ -47,7 +42,7 @@ export const allProjects = {
     year: "2024 - 2025",
     description:
       "Operario producción en la industria pesquera de Noruega (Bergen e Islas Lofoten). Esta etapa fue un recurso personal para conseguir dinero para la adquisición de una empresariales así como el perfeccionamiento del inglés.",
-    images: [weatherMapImg, weatherMapImg, weatherMapImg, weatherMapImg],
+    images: [holmoyLogoImg],
     details: {
       technologies: [
         "Inglés Profesional (Full Immersion)",
@@ -111,7 +106,7 @@ export const allProjects = {
     year: "2021",
     description:
       "Programa de especialización en comercio internacional que incluyó una fase de formación técnica y una estancia profesional en la oficina de la SPRI en Múnich. Durante este periodo, actué como enlace estratégico para la expansión de empresas vascas en el mercado Alemán.",
-    images: [weatherMapImg, weatherMapImg, weatherMapImg, weatherMapImg],
+    images: [basqueTradeLogoImg],
     details: {
       technologies: [
         "Inteligencia de Mercados",
@@ -230,7 +225,13 @@ export const allProjects = {
     year: "2015",
     description:
       "Responsable de la coordinación integral de proyectos de cooperación al desarrollo en Malawi. Gestión de equipos multidisciplinares y recursos económicos en entornos de alta complejidad para asegurar el impacto social en áreas estratégicas como salud y agricultura.",
-    images: [],
+    images: [
+      africaDirectoLogoImg,
+      africaDirecto4Img,
+      africaDirecto5Img,
+      africaDirecto9Img,
+      africaDirecto11Img,
+    ],
     details: {
       technologies: [
         "Gestión de Proyectos (PMO)",
@@ -336,13 +337,13 @@ export const studies = [
     degree: "Master BEINT en Comercio Exterior (2021)",
     university:
       "Universidad del País Vasco (UPV-EHU), Universidad de Deusto, Universidad Mondragon",
-    image: universityImg,
+    image: basqueTradeLogoImg,
   },
   {
     degree: "Bachelor in Business Administration (2013 - 2015)",
     university:
       "Hochschule für Wirtschaft und Recht (HWR Berlin) – Titulación Alemana (Erasmus)",
-    image: "",
+    image: null,
   },
   // ← Agrega más estudios aquí si lo necesitas
 ];

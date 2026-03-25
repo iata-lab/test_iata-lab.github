@@ -1,11 +1,12 @@
 import "./Home.css";
+import photoProfileImg from "../assets/img/photo-profile.jpg";
 
 const Home = () => {
   return (
     <section className="about-section">
       <article className="user-info">
         <div className="user-image">
-          <img src="/img-1/foto-perfil-1.png" alt="Inigo Mata" />
+          <img src={photoProfileImg} alt="Inigo Mata" />
         </div>
 
         <div className="user-text">

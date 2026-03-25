@@ -4,7 +4,7 @@ import "./Studies.css";
 
 // Import university images
 import basqueTradeLogoImg from "../assets/img/basque-trade-logo.png";
-import logoUpvEhuImg from "../assets/img/logo-upv-ehu.gif";
+import logoUpvEhuImg from "../assets/img/logo-upv-ehu.png";
 import dsbPanoramicImg from "../assets/img/DSB-panoramic.jpg";
 
 const Studies = () => {

@@ -7,22 +7,22 @@
 
 .user-info {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1.2fr 2fr;
   gap: 4rem;
-  align-items: start;
-  max-width: 1000px;
+  align-items: center;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
 .user-image {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .user-image img {
   width: 100%;
-  max-width: 300px;
+  max-width: 480px;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
@@ -30,7 +30,7 @@
   transform: translateY(-5px);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
   transform: scale(1.35);
-  }
+}
 
 .user-text h1 {
   color: var(--primary-color);
@@ -86,7 +86,7 @@
   }
 
   .user-image img {
-    max-width: 250px;
+    max-width: 340px;
   }
 
   .user-text h1 {
@@ -187,4 +187,4 @@
     font-size: 0.9rem;
     max-width: 220px;
   }
-} 
+}
