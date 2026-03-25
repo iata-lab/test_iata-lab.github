@@ -17,18 +17,18 @@ const Home = () => {
             mundo y de cómo se hacen los negocios en contextos diversos.
           </p>
           <p>
-            He trabajado en el ámbito público internacional con el Programa de
-            las Naciones Unidas en Chile, y también en la Banca de Inversión y
-            la industria automovilística, donde desarolle una mentalidad
-            analítica y una visión estratégica transversal que marcan mi forma
-            de entender la realidad humana y empresarial.
+            He trabajado en el Programa de las Naciones Unidas en Chile, en
+            Banca de Inversión y también en la industria automovilística, donde
+            desarolle una mentalidad analítica y una visión estratégica
+            transversal que marcan mi forma de entender la realidad empresarial.
           </p>
           <p>
             Mi impulso por viajar me llevo a recorrer distintas regiones del
-            mundo desde zonas rurales en Africa y más receintemente Noruega. En
-            el camino, he aprendido que moverme entre países y desempeñar
-            trabajos diversos me ha enseñado a adaptarme rápido, priorizar con
-            claridad y conectar con la realidad de muchas personas.
+            mundo desde zonas rurales en Africa hasta más receintemente el norte
+            de Noruega. En el camino, he aprendido que moverme entre países y
+            desempeñar trabajos diversos me ha enseñado a adaptarme rápido,
+            priorizar con claridad y conectar con la realidad de muchas
+            personas.
           </p>
           <p>
             En mi día a día practico alpinismo y sigo aprendiendo sobre nuevas
@@ -36,15 +36,6 @@ const Home = () => {
             economía en Bilbao, continúo formándome en lenguajes de programación
             y en inteligencia artificial.
           </p>
-          {/* Si quieres dejar aquí un cv en inglés pero no de */}
-          {/* <div className="cv-buttons">
-            <a href="./pdfs/english.pdf" className="cv-button" target="_blank" rel="noopener noreferrer">
-              English Curriculum
-            </a>
-            <a href="./pdfs/spanish.pdf" className="cv-button" target="_blank" rel="noopener noreferrer">
-              Spanish Curriculum
-            </a>
-          </div> */}
         </div>
       </article>
     </section>
